@@ -1,0 +1,5 @@
+#!/bin/bash
+
+export CLOJURE_EXT=~/.clojure
+PATH=$PATH:/opt/clojure-contrib/launchers/bash
+alias clj=clj-env-dir

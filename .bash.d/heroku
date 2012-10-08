@@ -1,0 +1,1 @@
+alias switch-heroku="heroku keys:clear && rm ~/.heroku/credentials && heroku list"
