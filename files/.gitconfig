@@ -1,0 +1,8 @@
+[user]
+	name = kellydunn
+	email = defaultstring@gmail.com
+[color]
+	diff = always
+	branch = always
+	interactive = always
+	status = always
