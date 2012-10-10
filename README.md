@@ -24,8 +24,7 @@ I've recently moved to Debian, so some of the aliases might be a little funky.  
 ```
 git clone git@github.com:kellydunn/dotfiles
 cd path/to/dotfiles
-cp -r files/* ~/
-
+cp -r dir_i_want ~/
 ```
 
 # updates
