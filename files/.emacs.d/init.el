@@ -4,6 +4,7 @@
 
 (add-to-list 'load-path "~/.emacs.d/")
 (load "package")
+(load "repositories")
 
 (add-to-list 'load-path "~/.emacs.d/modes/")
 (load "haml-mode/haml-mode")
