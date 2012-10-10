@@ -4,3 +4,4 @@
 
 (add-to-list 'load-path "~/.emacs.d/modes/")
 (load "haml-mode/haml-mode")
+(load "go-mode/go-mode")
