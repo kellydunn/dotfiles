@@ -2,7 +2,6 @@
 (setq auto-save-default nil)
 (setq-default indent-tabs-mode nil)
 
-(add-to-list 'load-path "~/.emacs.d/")
-(load "package")
-(require 'package-spec)
-(load "packages.el")
+(add-to-list 'load-path "~/.emacs.d")
+(require 'package)
+(package-initialize)
