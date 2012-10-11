@@ -5,7 +5,7 @@
 (defun default-packages-installed-p ()
   (let (value)
     (dolist(element default-package-list value)
-      (when (not (package-installed-p value))
+      (when (not (package-installed-p element))
         'false)
       'true)))
 
@@ -14,7 +14,7 @@
 
   (let (value)
     (dolist (element default-package-list value)
-      (when (not (package-installed-p value))
-        (package-install value)))))
+      (when (not (package-installed-p element))
+        (package-install element)))))
 
 (provide 'default-package-list)
