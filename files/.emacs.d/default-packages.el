@@ -17,4 +17,4 @@
       (when (not (package-installed-p element))
         (package-install element)))))
 
-(provide 'default-package-list)
+(provide 'default-packages)
