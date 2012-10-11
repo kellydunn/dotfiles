@@ -4,7 +4,5 @@
 
 (add-to-list 'load-path "~/.emacs.d/")
 (load "package")
-(load "repositories")
-
-(package-initialize)
-(load "default-packages")
+(require 'package-spec)
+(load "packages.el")
