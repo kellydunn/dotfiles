@@ -7,3 +7,4 @@
 (load "repositories")
 
 (package-initialize)
+(load "default-package-list")
