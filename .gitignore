@@ -2,3 +2,6 @@ irssi/config
 emacs.d/backups
 emacs.d/auto-save-list
 *.elc
+files/.emacs.d/elpa
+files/.emacs.d/elpa/*
+files/.emacs.d/elpa/**/*
