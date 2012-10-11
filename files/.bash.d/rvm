@@ -1,4 +1,0 @@
-#!/bin/bash
-
-# Load RVM if it is available
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"

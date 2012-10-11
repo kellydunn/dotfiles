@@ -1,8 +1,0 @@
-export ANT_HOME=/usr/bin/ant
-export JAVA_HOME=/usr/
-export ANDROID_HOME=/home/kelly/.andriod_sdk
-export ANDROID_TOOLS=$ANDROID_HOME/tools
-export ANDROID_PLATFORMS=$ANDROID_HOME/platforms
-export ANDROID_ADD_ONS=$ANDROID_HOME/add-ons
-
-export PATH=$PATH:$ANDROID_TOOLS:$ANDROID_PLATFORMS:$ANDROID_ADD_ONS:/usr/lib/jvm/java-6-sun-1.6.0.02/re/bin/
