@@ -22,3 +22,10 @@ alias go='gnome-open '
 # editor
 alias e='emacs -nw'
 export EDITOR="emacs -nw "
+
+#wifi
+wifi() {
+  sudo ifconfig wlan0
+  sudo iwconfig wlan0 essid $1 key s:$2
+  sudo dhclient wlan0
+}

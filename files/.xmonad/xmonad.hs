@@ -6,6 +6,7 @@ import XMonad.Util.EZConfig(additionalKeys)
 import System.IO
 
 main = do
+     xmproc <- spawnPipe "/usr/bin/xmobar /home/kelly/.xmobarrc"
      xmonad $ defaultConfig
             { normalBorderColor  = "#444444"
             , focusedBorderColor = "#90FFA4" }
