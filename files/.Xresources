@@ -1,2 +1,7 @@
-dmenu.selforeground:  #eee
-dmenu.selbackground:  #444
+! dmenu {{{
+dmenu.font:             Monospace:size=12
+dmenu.foreground:       #FF5787
+dmenu.background:       #FFFFFF
+dmenu.selforeground:    #151515
+dmenu.selbackground:    #ee3b3b
+! }}}
