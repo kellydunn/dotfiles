@@ -8,7 +8,5 @@ import System.IO
 main = do
      xmproc <- spawnPipe "/usr/bin/xmobar /home/kelly/.xmobarrc"
      xmonad $ defaultConfig
-            { modMask = mod4Mask
-            , normalBorderColor  = "#444444"
+            { normalBorderColor  = "#444444"
             , focusedBorderColor = "#90FFA4" }
-
