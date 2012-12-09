@@ -5,6 +5,8 @@ Config { font = "-*-xft:DejaVu Sans Mono Book-10-*-13-*-*-*-*-*-*-*"
        , commands = [ Run Cpu ["-L","3","-H","50","--normal","#90FFA4","--high","#D46060"] 10
                     , Run Memory ["-t","Mem: <usedratio>%"] 10
                     , Run Date "%a %b %_d %l:%M" "date" 10
+                    , Run Battery ["-L","50","-H","75","--high","#90FFA4","--normal","#FFFE71", "--low", "#D46060"] 10
+                    , Run Network "wlan0" ["-L","0","-H","32","--normal","#90FFA4","--high","#D46060"] 10
                     ]
        , sepChar = "%"
        , alignSep = "}{"
