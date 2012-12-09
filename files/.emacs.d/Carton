@@ -1,5 +1,5 @@
 (source "elpa" "http://tromey.com/elpa/")
-(source "marmalade" "http://marmalade-repo.org/depends-ons/")
+(source "marmalade" "http://marmalade-repo.org/packages/")
 
 (depends-on "haml-mode")
 (depends-on "yaml-mode")
