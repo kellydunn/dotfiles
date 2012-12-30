@@ -40,7 +40,8 @@ xterm*|rxvt*)
 esac
 
 . ~/.bash_aliases
-. /etc/bash_completion
+. ~/.path_config
+#. /etc/bash_completion
 
 PLUGINS=("rvm" "java" "android" "jackd" "heroku" "clojure")
 

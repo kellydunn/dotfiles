@@ -5,3 +5,6 @@ dmenu.background:       #FFFFFF
 dmenu.selforeground:    #151515
 dmenu.selbackground:    #ee3b3b
 ! }}}
+
+*background: #ee3b3b
+*foreground:    #151515
