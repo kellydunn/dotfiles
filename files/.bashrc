@@ -41,9 +41,8 @@ esac
 
 . ~/.bash_aliases
 . ~/.path_config
-#. /etc/bash_completion
 
-PLUGINS=("rvm" "java" "android" "jackd" "heroku" "clojure")
+PLUGINS=("jackd" "rspec" "pythonbrew")
 
 for plugin in "${PLUGINS[@]}"
 do
