@@ -1,1 +1,1 @@
-export PATH=$HOME/.gvm:$PATH
+export PATH=$HOME/.gvm/scripts/gvm:$PATH
