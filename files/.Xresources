@@ -1,42 +1,41 @@
-! dmenu {{{
-dmenu.font:             Monospace:size=12
-dmenu.foreground:       #FF5787
-dmenu.background:       #FFFFFF
-dmenu.selforeground:    #151515
-dmenu.selbackground:    #ee3b3b
-! }}}
+dmenu.font: Monospace:size=12
+dmenu.foreground: #FF5787
+dmenu.background: #FFFFFF
+dmenu.selforeground: #151515
+dmenu.selbackground: #ee3b3b
 
-xterm*foreground:  #ee3b3b
-xterm*background:  #151515
+xterm*foreground: #ee3b3b
+xterm*background: #151515
+xterm*metaSendsEscape: true
 
 ! Black
-*color0:           #151515
-*color8:           #151515
+*color0: #151515
+*color8: #151515
 
 ! Red
-*color1:           #000000
-*color9:           #555753
+*color1: #000000
+*color9: #555753
 
 ! Green
-*color2:           #66ff66
-*color10:          #66ff66
+*color2: #66ff66
+*color10: #66ff66
 
 ! Yellow
-*color3:           #5cb5ff
-*color11:          #5cb5ff
+*color3: #5cb5ff
+*color11: #5cb5ff
 
 ! Blue
-*color4:           #ff4d94
-*color12:          #ff4d94
+*color4: #ff4d94
+*color12: #ff4d94
 
 ! Magenta
-*color5:           #94ffe9
-*color13:          #94ffe9
+*color5: #94ffe9
+*color13: #94ffe9
 
 ! Cyan
-*color6:           #e6e6e6
-*color14:          #e6e6e6
+*color6: #e6e6e6
+*color14: #e6e6e6
 
 ! Gray
-*color7:           #ee3b3b          
-*color15:          #ee3b3b
+*color7: #ee3b3b          
+*color15: #ee3b3b
