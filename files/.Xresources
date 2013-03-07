@@ -4,7 +4,7 @@ dmenu.background: #FFFFFF
 dmenu.selforeground: #151515
 dmenu.selbackground: #ee3b3b
 
-xterm*foreground: #ee3b3b
+xterm*foreground: #eeeeee
 xterm*background: #151515
 xterm*metaSendsEscape: true
 
@@ -13,7 +13,7 @@ xterm*metaSendsEscape: true
 *color8: #151515
 
 ! Red
-*color1: #000000
+*color1: #555753
 *color9: #555753
 
 ! Green
