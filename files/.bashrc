@@ -42,7 +42,7 @@ esac
 . ~/.bash_aliases
 . ~/.path_config
 
-PLUGINS=("jackd" "rvm" "pythonbrew" "heroku" "gvm")
+PLUGINS=("jackd" "rvm" "pythonbrew" "heroku" "gvm" "carton")
 
 for plugin in "${PLUGINS[@]}"
 do
