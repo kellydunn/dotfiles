@@ -16,9 +16,6 @@ alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo
 alias background='feh --bg-center '
 alias screenshot='sleep 15; import -window root screen_shot.png;'
 
-# opening things
-alias go='gnome-open '
-
 # editor
 alias e='emacs -nw'
 export EDITOR="emacs -nw "
