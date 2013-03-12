@@ -37,5 +37,7 @@ xterm*metaSendsEscape: true
 *color14: #e6e6e6
 
 ! Gray
-*color7: #ee3b3b          
-*color15: #ee3b3b
+!*color7: #ee3b3b          
+!*color15: #ee3b3b
+*color7: #e78eec
+*color15: #e78eec
