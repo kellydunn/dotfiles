@@ -40,9 +40,8 @@ xterm*|rxvt*)
 esac
 
 . ~/.bash_aliases
-. ~/.path_config
 
-PLUGINS=("jackd" "rvm" "pythonbrew" "heroku" "gvm" "carton")
+PLUGINS=("jackd" "rvm" "pythonbrew" "heroku" "gvm" "carton" "monome")
 
 for plugin in "${PLUGINS[@]}"
 do
