@@ -20,6 +20,9 @@ alias screenshot='sleep 15; import -window root screen_shot.png;'
 alias e='emacs -nw'
 export EDITOR="emacs -nw "
 
+# pythonbrew
+alias pyb='pythonbrew '
+
 #wifi
 wifi() {
   sudo ifconfig wlan0
