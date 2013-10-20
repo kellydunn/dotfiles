@@ -41,7 +41,7 @@ esac
 
 . ~/.bash_aliases
 
-PLUGINS=("jackd" "rvm" "pythonbrew" "heroku" "gvm" "carton" "monome")
+PLUGINS=("jackd" "rvm" "pythonbrew" "heroku" "gvm" "carton" "monome" "arm-none-eabi-gcc")
 
 for plugin in "${PLUGINS[@]}"
 do
