@@ -1,3 +1,0 @@
-export LD_LIBRARY_PATH=/usr/local/lib:/usr/local/include
-export PATH=/usr/local/lib:/usr/lib:$PATH
-export PATH=$HOME/.go

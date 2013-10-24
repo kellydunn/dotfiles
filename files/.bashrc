@@ -1,7 +1,6 @@
 #! bin/bash
 
 SCREEN_ESC="\[\033k\033\134\]"
-P="\$"
 
 [ -z "$PS1" ] && return
 
@@ -13,10 +12,9 @@ shopt -s checkwinsize
 
 [ -x /usr/bin/lesspipe ] && eval "$(SHELL=/bin/sh lesspipe)"
 
-. ~/.bash_aliases
-
 PROMPT_SYM="$ "
 
+. ~/.bash_aliases
 . ~/.bash_prompt
 
 PLUGINS=("jackd" "rvm" "pythonbrew" "heroku" "gvm" "carton" "monome" "arm-none-eabi-gcc")

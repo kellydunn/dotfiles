@@ -17,4 +17,5 @@ main = do
             , focusedBorderColor = "#90FFA4" 
             , manageHook = manageDocks
             , layoutHook = avoidStruts $ layoutHook defaultConfig
+            , terminal = "xterm"
             }
