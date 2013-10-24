@@ -29,12 +29,3 @@ wifi() {
   sudo iwconfig wlan0 essid $1 key s:$2
   sudo dhclient wlan0
 }
-
-git-current-branch() {
-    git symbolic-ref HEAD ^/dev/null | awk -F/ '{print $3;}'
-}
-
-gitout() {
-    # git cherry -v git-current-branch
-    git branch | grep -r "*"
-}
