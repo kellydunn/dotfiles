@@ -17,7 +17,7 @@ alias background='feh --bg-center '
 alias screenshot='sleep 15; import -window root screen_shot.png;'
 
 # editor
-alias e='emacs -nw '
+alias e='emacsclient '
 export EDITOR=e
 
 #wifi
