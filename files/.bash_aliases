@@ -18,7 +18,7 @@ alias screenshot='sleep 15; import -window root screen_shot.png;'
 
 # editor
 alias e='emacsclient '
-export EDITOR=e
+export EDITOR=emacsclient
 
 #wifi
 wifi() {
