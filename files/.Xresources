@@ -6,6 +6,7 @@ dmenu.selbackground: #ee3b3b
 
 xterm*metaSendsEscape: true
 xterm*faceName: Inconsolata:size=12:antialias=false
+xterm*utf8: 1
 
 !TomorrowNightEighties
 #define t_background        #2d2d2d
