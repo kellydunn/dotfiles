@@ -23,3 +23,6 @@
 (depends-on "clojure-mode")
 (depends-on "go-mode")
 (depends-on "rust-mode")
+(depends-on "lua-mode")
+
+(depends-on "profile-dotemacs")
