@@ -17,7 +17,7 @@ PROMPT_SYM="$ "
 . ~/.bash_aliases
 . ~/.bash_prompt
 
-PLUGINS=("jackd" "chruby" "pyenv" "heroku" "gvm" "cask" "monome" "arm-none-eabi-gcc")
+PLUGINS=("jackd" "chruby" "pyenv" "heroku" "go" "cask" "monome" "arm-none-eabi-gcc")
 
 for plugin in "${PLUGINS[@]}"
 do
