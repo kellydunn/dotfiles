@@ -2,7 +2,15 @@
 #
 
 # System aliases
-alias ls='ls --color=auto'
+
+# TODO: Create seperate Darwin aliases
+unamestr=`uname`
+if [[ $unamestr == 'Linux' ]]; then
+  alias ls='ls --color=auto'
+elif [[ $unamestr == 'Darwin' ]]; then
+  alias ls='ls -G'
+fi
+
 alias grep='grep --color=auto'
 alias fgrep='fgrep --color=auto'
 alias egrep='egrep --color=auto'
