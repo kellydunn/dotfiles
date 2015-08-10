@@ -3,9 +3,6 @@
 (setq-default indent-tabs-mode nil)
 
 (add-to-list 'load-path "~/.emacs.d")
-(add-to-list 'custom-theme-load-path "~/.emacs.d/themes")
-(require 'package)
-(package-initialize)
 
 (tool-bar-mode -1)
 (scroll-bar-mode -1)
